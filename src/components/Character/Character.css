@@ -1,0 +1,41 @@
+.character {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+}
+.character div {
+  display: flex;
+}
+.character__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.character__back {
+  width: 60px;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+}
+.charater__avatar {
+  width: 240px;
+  height: 240px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.character__detail {
+  display: flex;
+  flex-direction: column;
+}
+.character__detail span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .character div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .charater__avatar {
+    margin: 0 0 10px 0;
+  }
+}

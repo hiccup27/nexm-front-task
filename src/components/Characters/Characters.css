@@ -1,0 +1,33 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+}
+.characters__title {
+  text-align: center;
+}
+.characters__row {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  cursor: pointer;
+  border-bottom: 1px lightgrey solid;
+}
+.charaters__image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.characters__detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.characters__detail__name {
+  font-size: medium;
+  font-weight: bold;
+}
